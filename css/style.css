@@ -2,17 +2,34 @@ body {
   background-color: rgba(24, 24, 24, 1);
 }
 
+header.jumbotron {
+    height: 610px;
+    background: url("../img/header-bg.jpg") center 0 no-repeat;
+    background-size: cover;
+    }
+@media (max-width: 767px){
+  header.jumbotron {
+    height: 310px;
+    background: url("../img/header-bg.jpg") center 0 no-repeat;
+    background-size: cover;
+  }
+}
 .social-buttons-top {
   padding-top: 400px;
 }
-.fa {
-  padding: 20px;
+@media (max-width: 767px){
+  .social-buttons-top {
+    padding-top: 200px;
+  }
+}
+.social-buttons-top .fa {
+  padding: 15px;
   font-size: 30px;
   text-align: center;
   text-decoration: none;
   margin: 10px 2px;
-  height: 70px;
-  width: 70px;
+  height: 65px;
+  width: 65px;
 }
 
 .fa:hover {
@@ -47,4 +64,7 @@ body {
 .fa-instagram {
   background: #125688;
   color: white;
+}
+section {
+  padding: 50px 0;
 }
