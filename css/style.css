@@ -10,7 +10,7 @@ header.jumbotron {
 @media (max-width: 767px){
   header.jumbotron {
     height: 250px;
-    background: url("../img/header-bg.jpg") center 0 no-repeat;
+    background: url("../img/2018-2(phonto-S).PNG") center 0 no-repeat;
     background-size: cover;
   }
 }
