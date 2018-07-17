@@ -12,6 +12,7 @@ header.jumbotron {
     height: 250px;
     background: url("../img/header-bg.jpg") center 0 no-repeat;
     background-size: cover;
+    margin-top: 60px;
   }
 }
 .social-buttons-top {
