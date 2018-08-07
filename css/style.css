@@ -75,3 +75,6 @@ header.jumbotron {
 section {
   padding: 50px 0;
 }
+iframe {
+	margin: auto !important;
+}
