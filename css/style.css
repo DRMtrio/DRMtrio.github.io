@@ -7,10 +7,12 @@ header.jumbotron {
     background: url("../img/header-bg.jpg?v=20180810") center 0 no-repeat;
     background-size: cover;
 }
-header h1, h2{
+h1, h2, h4{
   font-family: 'Oswald', sans-serif;
-  position: relative;
   font-weight: bold;
+}
+header h1, header h2{
+  position: relative;
   letter-spacing: 3px;
   opacity: 0.9;
   text-transform: none;
@@ -29,11 +31,9 @@ header h2 {
     background-size: cover;
     margin-top: 60px;
   }
-  header h1, h2{
-    font-family: 'Oswald', sans-serif;
+  header h1, header h2{
     top: 50px;
     position: relative;
-    font-weight: bold;
     letter-spacing: 3px;
     opacity: 0.9;
     text-transform: none;
