@@ -8,9 +8,9 @@ header.jumbotron {
     background-size: cover;
 }
 header h1, h2{
-  font-family: fantasy;
+  font-family: 'Oswald', sans-serif;
   position: relative;
-  font-weight: 100;
+  font-weight: bold;
   letter-spacing: 3px;
   opacity: 0.9;
   text-transform: none;
@@ -30,10 +30,10 @@ header h2 {
     margin-top: 60px;
   }
   header h1, h2{
-    font-family: fantasy;
+    font-family: 'Oswald', sans-serif;
     top: 50px;
     position: relative;
-    font-weight: 100;
+    font-weight: bold;
     letter-spacing: 3px;
     opacity: 0.9;
     text-transform: none;
